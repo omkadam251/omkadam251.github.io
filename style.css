@@ -1,0 +1,51 @@
+div{
+  /* border: solid white 1px; */
+}
+body{
+  background-color: black;
+  color: white;
+}
+
+.my-pic{
+  height: 100vh;
+  background-image: url("./omkar.jpeg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  position: fixed;
+}
+.navbar{
+  margin-bottom: 0px;
+  border-radius: 0px important;
+  background-color: black;
+  color: white;
+}
+.name{
+  font-size: 6em;
+}
+
+@media (max-width: 1200px)
+{
+  body{
+    background-image: url("./omkar.jpeg");
+    background-repeat: no-repeat;
+  /* background-size: auto 100%; */
+  }
+  .content{
+    margin: 50vh 50px 0 50px;
+  }
+}
+/* @media (min-width: 1200px)
+{
+  body{
+    background-image: url("./omkar.jpeg");
+  }
+  .my-pic{
+    display: none;
+  }
+} */
+img{
+  max-width: 200px;
+}
+.sr-only{
+  color: white
+}
